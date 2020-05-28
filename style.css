@@ -1,0 +1,108 @@
+#video {
+
+    margin-left: 0px;
+    margin-right: 0px;
+
+  border: 1px solid black;
+  box-shadow: 2px 2px 3px black;
+  width:320px;
+  height:240px;
+}
+
+#img {
+
+
+    border: 1px solid black;
+    box-shadow: 2px 2px 3px black;
+    width:320px;
+    height:240px;
+    vertical-align: inherit;
+}
+#hello{
+  display: none;
+  visibility: hidden;
+}
+#canvas{
+  display: none;
+  visibility: hidden;
+}
+
+.camera {
+  width: 340px;
+  display:inline-block;
+}
+
+#predict {
+  margin-left: 420px;
+margin-top: 30px;
+
+}
+#startbutton{
+
+      margin-left: 420px;
+   margin-top: 30px;
+}
+#content {
+  text-align: center;
+
+    width: 1400px;
+
+}
+.topcontainer {
+  width: 100%;
+  padding-bottom: 0;
+}
+.mid-text{
+
+    width: 950px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 120px;
+
+}
+.title-img{
+   margin-left: 200px;
+}
+.output {
+
+      margin-left: 450px;
+
+  width: 340px;
+  display:block;
+}
+@media(min-width:1024px)
+{
+  #img{
+
+        margin-left: 410px;
+  }
+
+  #predict {
+
+    margin-left: 550px;
+
+  }
+  .mid-text{
+    margin-left: 0px;
+    padding-left: 100px;
+    margin-right: 0px;
+    padding-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+
+}
+.lap{
+
+    padding-left: 510px;
+
+}
+   #title {
+     text-align: center;
+   }
+   #startbutton{
+
+    margin-left: 550px;
+
+   }
+ }
